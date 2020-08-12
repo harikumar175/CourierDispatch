@@ -1,0 +1,2 @@
+# CourierDispatch
+This is courier tracking application where the admin is the parent and followed by branch nodes.The courier dispatched from the admin will be notified to branches.Once the courier reaches the branch node the admin office will be notified that the courier has reached as well as informing the status and condition of the parcel.There is a mini chat system between the branch as well as admin to deliver messages.
