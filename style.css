@@ -1,0 +1,240 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("home.jpg");
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("home.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("home2.jpg");
+  min-height: 400px;
+}
+.bgimg-4 {
+  background-image: url("home5.jpg");
+  min-height: 400px;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+#header
+{
+  background-image:linear-gradient(to right,rgba(187,45,180,0.7),rgba(83,198,192,0.7));
+  margin:10px;
+  height:90px;
+  border-radius:5px;
+}
+
+#topNav li {
+
+    padding: 0 1.75em;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-size: 1.4rem;
+
+}
+#topNav li {
+
+    letter-spacing: 0.2em;
+
+}
+section.blog-post-area {
+    margin-top: 50px;
+}
+
+section.blog-post-area .big-image {
+    float: left;
+    width: 50%;
+    padding-right: 35px;
+}
+
+section.blog-post-area .big-text {
+    float: right;
+    width: 50%;
+    padding-right: 20px;
+}
+
+section.blog-post-area img {
+    width: 100%;
+}
+
+section.blog-post-area .big-text h3 {
+    margin: 10px 0 0;
+}
+
+section.blog-post-area .big-text h3 a {
+    font-family: Geometria;
+    font-weight: 700;
+    font-size: 40px;
+    color: #061e37;
+    text-decoration: none;
+}
+
+section.blog-post-area .big-text p {
+    color: #061e37;
+    font-family: Geometria;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 18px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+section.blog-post-area .big-text h4 {
+    margin-top: 25px;
+    padding-top: 30px;
+    position: relative;
+}
+
+section.blog-post-area .big-text h4::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+section.blog-post-area .single-post {
+    padding-right: 20px;
+    margin: 100px 0px 0px;
+}
+
+section.blog-post-area h4 span {
+    font-family: Geometria;
+    font-weight: 400;
+    font-size: 15px;
+    color: #061e37;
+    text-decoration: none;
+}
+
+section.blog-post-area .big-text h4 span.author {
+    float: right
+}
+
+section.blog-post-area h4 span.author-name {
+    font-weight: 500;
+}
+
+.blog-post-area .single-post h3 a {
+    font-family: Geometria;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #061e37;
+}
+
+.blog-post-area .single-post p {
+    color: #061e37;
+    font-family: Geometria;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-top: 14px;
+    position: relative;
+    text-align: justify;
+}
+
+.blog-post-area .single-post h4 {
+    margin-bottom: 12px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.blog-post-area .single-post h4::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.blog-post-area .single-post p::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.blog-post-area .single-post h3 {
+    margin: 25px 0 15px;
+}
+
+.blog-post-area .pegination {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.blog-post-area .pegination .nav-links {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.blog-post-area .pegination .nav-links .page-numbers {
+    border: 1px solid #448aff;
+    border-radius: 50%;
+    color: #448aff;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    list-style: outside none none;
+    margin-right: 5px;
+    text-align: center;
+    width: 45px;
+}
+
+.blog-post-area .blog-post-area-style {
+    margin: 0 20px 0 40px;
+}
+
+.blog-post-area .pegination .nav-links .page-numbers.current {
+    background: #448aff;
+    color: #fff;
+}
+
+.blog-post-area .pegination .nav-links .page-numbers:hover {
+    background: #448aff;
+    color: #fff;
+}
+
+.blog-post-area .pegination .nav-links a {
+    text-decoration: none;
+}
